@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link ref="text/css" rel="stylesheet" href="style.css" />
+    <title>Music Blog</title>
+    <!--
+        Holds metadata / information we don't see
+            - links, viewport info, document title, etc.
+      -->
+    <!-- Three ways to use CSS with our HTML:
+        1. Embed the CSS within a style tag <style>
+        2. Inline styling within another element
+        3. Link a stylesheet to our HTML -->
+    <!-- <style>
+        body {
+            background-color: black;
+        }
+    </style> -->
+</head>
+<!-- <body style="background-color: green;"> -->
+
+<body>
+
+    <header>
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- (li>span{Home})+(li>a)*3 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <!-- Main specifies the main content.
+        There can only be one!
+        Cannot be a descendant (child) of:
+            - header, nav, article, aside, footer-->
+        <main>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quod incidunt maiores aliquam
+                    repudiandae omnis iure explicabo id cupiditate earum. Eligendi, veritatis? Dolorum labore fugiat
+                    molestias eos eligendi earum nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                    fugit corrupti labore reiciendis distinctio. Omnis esse quo error nisi obcaecati minus repellat,
+                    beatae rerum vero eveniet ullam voluptates nemo fugiat! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Earum perspiciatis ea porro vitae nihil voluptatum cupiditate consequatur
+                    consequuntur similique dolor quae nam recusandae, aperiam repudiandae voluptate sit impedit cumque?
+                    Nemo.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores voluptatem quam, est
+                    excepturi architecto suscipit sunt impedit magnam voluptate porro culpa dicta libero fugiat error
+                    velit aliquid ipsa aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                    quis porro expedita neque sit cupiditate, ullam excepturi officia totam, itaque impedit. Provident
+                    quod omnis consectetur nostrum, explicabo beatae dicta voluptate? Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Quia labore consectetur quidem, recusandae quas hic consequuntur
+                    consequatur! Quos alias, nihil aspernatur explicabo, cupiditate eveniet, dolore suscipit facilis
+                    quia accusantium dolorum.</p>
+            </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+                <!-- (a>img)*4 -->
+                <a target="blank" href="./assets/JohnAlbum.jpg"><img src="./assets/JohnAlbum.jpg"
+                        alt="John Legend - Darkness And Light"></a>
+                <a target="blank" href="./assets/GorillazAlbum.jpg"><img src="./assets/GorillazAlbum.jpg"
+                        alt="Gorillaz - Demon Days"></a>
+                <a target="blank" href="./assets/DemiAlbum.jpg"><img src="./assets/DemiAlbum.jpg"
+                        alt="Demi Lovato - Tell Me You Love Me"></a>
+                <a target="blank" href="./assets/KanyeAlbum.jpg"><img src="./assets/KanyeAlbum.jpg"
+                        alt="Kanye West - I Hate Being Bi-Polar It's Awesome"></a>
+            </aside>
+        </main>
+    </section>
+
+
+    <!-- Footers can contain: authorship info, copyright, contact info, a site map, related links/documents, back to top link -->
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quo cumque eaque animi a atque et cum culpa,
+            itaque vitae totam eveniet aspernatur perferendis asperiores! 2021 by Yasmeen Burnett</p>
+    </footer>
+
+</body>
+
+</html>
